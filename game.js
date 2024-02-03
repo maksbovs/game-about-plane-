@@ -23,7 +23,7 @@ class Main extends Phaser.Scene {
         this.plane.body.gravity.y = 1000;
         this.spaceBar = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
         this.score = 0;
-         this.labelScore = this.add.text(140, 20, "Created by Maxim", { fontSize: 10, color: "white" });
+         this.labelScore = this.add.text(140, 20, "Created by Maxim Bovsunovskiy", { fontSize: 10, color: "white" });
          this.labelScore = this.add.text(15, 15, "0", { fontSize: 30, color: "white" });
        
         this.pipes = this.physics.add.group();
